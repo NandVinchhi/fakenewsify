@@ -11,8 +11,8 @@ server = app.server
 
 app.layout = html.Div([
 	html.H3("Fake News Classifier", style = {'color':'#696969'}),
-	html.P("This is an open source fake news classifier, made with python scikit-learn library and plotly dash front-end. It takes the title and text content of a news article as its inputs and classifies it into fake or real. This project was made for the purpose of RookieHacks 2020. check the github repo for more info: ", style = {'color':'#696969'}),
-	html.A("GitHub repo", href='https://github.com/NandVinchhi/FakeNewsClassifier', target="_blank"),
+	html.P("This is an open source fake news classifier, made with python scikit-learn library and plotly dash front-end. It takes the title and text content of a news article as its inputs and classifies it into fake or real. check the github repo for more info: ", style = {'color':'#696969'}),
+	html.A("GitHub repo", href='https://github.com/NandVinchhi/fakenewsify', target="_blank"),
 	
 	
 	html.Div([dcc.Textarea(
