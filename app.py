@@ -7,7 +7,7 @@ import dash_core_components as dcc
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
 
 app.layout = html.Div([
 	html.H3("Fake News Classifier", style = {'color':'#696969'}),
